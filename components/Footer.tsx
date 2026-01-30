@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           <div className="flex items-center gap-4">
             <a href="https://github.com/luscasmbs" className="text-slate-400 hover:text-white transition-transform transform hover:scale-110"><GithubIcon className="w-6 h-6"/></a>
             <a href="https://www.linkedin.com/in/lucas-miguel-barbosa-da-silva-326461341/" className="text-slate-400 hover:text-white transition-transform transform hover:scale-110"><LinkedinIcon className="w-6 h-6"/></a>
-            <a href="mailto:lucas.miguel@example.com" className="text-slate-400 hover:text-white transition-transform transform hover:scale-110"><MailIcon className="w-6 h-6"/></a>
+            <a href="mailto:lucasmiguelbsilva@gmail.com.com" className="text-slate-400 hover:text-white transition-transform transform hover:scale-110"><MailIcon className="w-6 h-6"/></a>
           </div>
           <p className="text-slate-500 text-sm text-center md:text-right">
            &copy; {new Date().getFullYear()} Lucas Miguel Barbosa da Silva. <br className="sm:hidden" />
