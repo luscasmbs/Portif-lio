@@ -57,7 +57,7 @@ export const portfolioData = {
             issuer: 'NASA International Space Apps Challenge',
             date: { pt: 'Verificação emitida em out de 2025', en: 'Verification issued in Oct 2025' },
             skills: { pt: ['Gestão de projetos'], en: ['Project Management'] },
-            credentialUrl: '#'
+            credentialUrl: 'https://drive.google.com/file/d/1LXunld5R1bbI03DH-LD55mGLIMJnWcpx/view?usp=sharing'
         },
         {
             id: 2,
@@ -66,7 +66,7 @@ export const portfolioData = {
             issuer: 'Cisco Networking Academy',
             date: { pt: 'Verificação emitida em set de 2025', en: 'Verification issued in Sep 2025' },
             skills: { pt: ['Gestão de vulnerabilidade e ameaça'], en: ['Vulnerability and Threat Management'] },
-            credentialUrl: '#'
+            credentialUrl: 'https://drive.google.com/file/d/1l9VkN-tx93J-3TP_Bi1731-F8HxqUdi2/view?usp=sharing'
         },
         {
             id: 3,
@@ -75,7 +75,7 @@ export const portfolioData = {
             issuer: 'Cisco Networking Academy',
             date: { pt: 'Emitido em jun de 2025 · Expira em jun de 2028', en: 'Issued Jun 2025 · Expires Jun 2028' },
             skills: { pt: ['Redes'], en: ['Networking'] },
-            credentialUrl: '#'
+            credentialUrl: 'https://drive.google.com/file/d/1-zYR3wfgdUAKF4hP22RfbMQrhWyc7-JG/view?usp=sharing'
         },
         {
             id: 4,
@@ -84,7 +84,7 @@ export const portfolioData = {
             issuer: 'Cisco Networking Academy',
             date: { pt: 'Verificação emitida em mar de 2025', en: 'Verification issued in Mar 2025' },
             skills: { pt: ['Defesa de redes'], en: ['Network Defense'] },
-            credentialUrl: '#'
+            credentialUrl: 'https://drive.google.com/file/d/1gnGZb65ENsfzg0uJe0XPJKE9SlDvVPYY/view?usp=sharing'
         },
         {
             id: 5,
@@ -102,7 +102,7 @@ export const portfolioData = {
             issuer: 'INSTITUTO MEMAKER',
             date: { pt: 'Verificação emitida em out de 2024', en: 'Verification issued in Oct 2024' },
             skills: { pt: ['soft skills'], en: ['Soft Skills'] },
-            credentialUrl: '#'
+            credentialUrl: 'https://drive.google.com/file/d/13iAmtsECxS8B8g0JY4qWHZKsEa8Nvgbb/view?usp=sharing'
         },
         {
             id: 7,
@@ -111,7 +111,7 @@ export const portfolioData = {
             issuer: 'Cisco Networking Academy',
             date: { pt: 'Verificação emitida em ago de 2024', en: 'Verification issued in Aug 2024' },
             skills: { pt: ['Hardware'], en: ['Hardware'] },
-            credentialUrl: '#'
+            credentialUrl: 'https://drive.google.com/file/d/18NqmsW2TK_7v7K5mwMEwqGLHPOKl1xav/view?usp=sharing'
         },
     ] as Certification[]
 };
