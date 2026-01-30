@@ -32,8 +32,8 @@ const Hero: React.FC = () => {
             {t.hero.contact}
           </a>
           <div className="flex items-center gap-4">
-            <a href="https://github.com/luscasmbs" className="text-slate-400 hover:text-white transition-transform transform hover:scale-110"><GithubIcon className="w-8 h-8"/></a>
-            <a href="https://www.linkedin.com/in/lucas-miguel-barbosa-da-silva-326461341/" className="text-slate-400 hover:text-white transition-transform transform hover:scale-110"><LinkedinIcon className="w-8 h-8"/></a>
+            <a href="https://github.com/luscasmbs" className="text-slate-400 hover:text-white transition-transform transform hover:scale-110" target="_blank" rel="noopener noreferrer"><GithubIcon className="w-8 h-8"/></a>
+            <a href="https://www.linkedin.com/in/lucas-miguel-barbosa-da-silva-326461341/" className="text-slate-400 hover:text-white transition-transform transform hover:scale-110" target="_blank" rel="noopener noreferrer"><LinkedinIcon className="w-8 h-8"/></a>
             <a href="mailto:lucasmiguelbsilva@gmail.com" className="text-slate-400 hover:text-white transition-transform transform hover:scale-110"><MailIcon className="w-8 h-8"/></a>
           </div>
         </div>
