@@ -24,7 +24,7 @@ export const translations = {
     hero: {
       greeting: 'Olá, eu sou',
       name: 'Lucas Miguel',
-      title: 'Desenvolvedor de Software & Inovador',
+      title: 'Desenvolvedor de Software',
       description: 'Transformando ideias complexas em soluções tecnológicas impactantes que resolvem problemas do mundo real.',
       contact: 'Entre em contato',
     },
@@ -43,7 +43,7 @@ export const translations = {
         skills: 'Competências',
     },
     footer: {
-        text: 'Criado com paixão por Lucas Miguel. Todos os direitos reservados.'
+        text: 'Criado por Lucas Miguel. Todos os direitos reservados.'
     }
   },
   en: {
@@ -55,7 +55,7 @@ export const translations = {
     hero: {
       greeting: "Hi, I'm",
       name: 'Lucas Miguel',
-      title: 'Software Developer & Innovator',
+      title: 'Software Developer',
       description: 'Transforming complex ideas into impactful technological solutions that solve real-world problems.',
       contact: 'Get in touch',
     },
@@ -74,7 +74,7 @@ export const translations = {
         skills: 'Skills',
     },
      footer: {
-        text: 'Crafted with passion by Lucas Miguel. All rights reserved.'
+        text: 'Crafted by Lucas Miguel. All rights reserved.'
     }
   },
 };
