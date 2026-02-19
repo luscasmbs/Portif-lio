@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
           {t.hero.description}
         </p>
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="mailto:lucas.miguel@example.com" className="w-full sm:w-auto bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105 shadow-lg">
+          <a href="mailto:lucasmiguelbsilva@gmail.com" className="w-full sm:w-auto bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105 shadow-lg">
             {t.hero.contact}
           </a>
           <div className="flex items-center gap-4">
