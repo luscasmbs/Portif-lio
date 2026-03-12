@@ -11,7 +11,7 @@ const About: React.FC = () => {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16 items-center">
             <div className="md:col-span-1 animate-fade-in">
                 <img 
-                    src="/assets/LucasFto.png" 
+                    src="../assets/LucasFto.png" 
                     alt="Lucas Miguel"
                     className="rounded-full w-48 h-48 lg:w-64 lg:h-64 mx-auto object-cover shadow-2xl border-4 border-slate-700/50"
                 />
