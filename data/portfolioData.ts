@@ -47,6 +47,45 @@ export const portfolioData = {
                 en: 'A smart wristband that detects anxiety and intervenes in real-time with vibro-thermal stimuli, complemented by an app with AI for monitoring and support.'
             },
             tech: ['Flutter', 'Firebase', 'ESP32', 'HTML', 'CSS', 'JavaScript', 'AI']
+        },
+        {
+            id: 'rumo',
+            icon: BrainIcon,
+            title: {
+                pt: 'R.U.M.O',
+                en: 'R.U.M.O'
+            },
+            description: {
+                pt: 'Projeto que coleta e analisa dados de uma determinada região para identificar problemas e prever quando eles podem acontecer. O sistema reúne estatísticas passadas e dados atuais para encontrar padrões, como períodos em que ocorreram epidemias de gripe, aumento de assaltos ou riscos de deslizamento de solo. A partir dessa análise, ele tenta entender quais fatores estavam presentes nesses momentos e usa estatística e probabilidade para estimar quando situações semelhantes podem ocorrer novamente, ajudando na prevenção e na tomada de decisões.',
+                en: 'A project that collects and analyzes data from a specific region to identify problems and predict when they can occur. The system gathers past statistics and current data to find patterns, such as periods when flu epidemics occurred, increased assaults, or landslide risks. From this analysis, it tries to understand which factors were present in those moments and uses statistics and probability to estimate when similar situations can occur again, helping in prevention and decision-making.'
+            },
+            tech: ['TSX', 'Node.js', 'Firebase', 'React']
+        },
+        {
+            id: 'airqmba',
+            icon: CodeIcon,
+            title: {
+                pt: 'AirQMBA',
+                en: 'AirQMBA'
+            },
+            description: {
+                pt: 'Projeto da NASA que mede a qualidade do ar através de sensores terrestres e via satélite para detectar a qualidade do ar em determinada região e recomendar qual o melhor horário para sair de casa.',
+                en: 'A NASA project that measures air quality through ground sensors and satellite data to detect air quality in a specific region and recommend the best time to leave home.'
+            },
+            tech: ['HTML', 'CSS', 'JavaScript', 'Node.js']
+        },
+        {
+            id: 'gestao',
+            icon: CodeIcon,
+            title: {
+                pt: 'Gestão',
+                en: 'Management'
+            },
+            description: {
+                pt: 'Site que possui mensagens em grupo, kanban, IA, aba de projetos onde você insere cada projeto, com várias funcionalidades para gestão de projetos.',
+                en: 'A website with group messaging, kanban board, AI integration, and projects tab where you can add each project, with various functionalities for project management.'
+            },
+            tech: ['TSX', 'Node.js', 'React', 'Firebase', 'CSS']
         }
     ] as Project[],
     certifications: [
@@ -112,6 +151,13 @@ export const portfolioData = {
             date: { pt: 'Verificação emitida em ago de 2024', en: 'Verification issued in Aug 2024' },
             skills: { pt: ['Hardware'], en: ['Hardware'] },
             credentialUrl: 'https://drive.google.com/file/d/18NqmsW2TK_7v7K5mwMEwqGLHPOKl1xav/view?usp=sharing'
-        },
-    ] as Certification[]
+        },        {
+            id: 8,
+            logo: CiscoLogo,
+            title: { pt: 'Cybersegurança', en: 'Cybersecurity' },
+            issuer: 'Cisco Networking Academy',
+            date: { pt: 'Verificação emitida em mar de 2026', en: 'Verification issued in Mar 2026' },
+            skills: { pt: ['Cybersegurança'], en: ['Cybersecurity'] },
+            credentialUrl: '#',
+        },    ] as Certification[]
 };

@@ -10,9 +10,8 @@ const About: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16 items-center">
             <div className="md:col-span-1 animate-fade-in">
-                 {/* Adicione o link da sua foto no `src` abaixo */}
                 <img 
-                    src="https://placehold.co/400x400/0f172a/38bdf8?text=LM" 
+                    src="/assets/LucasFto.png" 
                     alt="Lucas Miguel"
                     className="rounded-full w-48 h-48 lg:w-64 lg:h-64 mx-auto object-cover shadow-2xl border-4 border-slate-700/50"
                 />
