@@ -19,7 +19,7 @@ export interface Project {
 
 export interface Certification {
     id: number;
-    logo: React.ElementType;
+    logo: string;
     title: {
       pt: string;
       en: string;
