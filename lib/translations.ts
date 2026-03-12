@@ -30,7 +30,7 @@ export const translations = {
     },
     about: {
       title: 'Sobre Mim',
-      p1: `Um desenvolvedor de ${age} anos apaixonado por tecnologia, atualmente no último ano do ensino médio e do curso técnico em Análise e Desenvolvimento de Sistemas. Minha jornada é impulsionada pela curiosidade e pelo desejo de criar soluções que façam a diferença.`,
+      p1: `Um desenvolvedor de ${age} anos que gosta muito de tecnologia, atualmente no último ano do ensino médio e do curso técnico em Análise e Desenvolvimento de Sistemas. Minha jornada é impulsionada pela curiosidade e pelo desejo de criar soluções que façam a diferença.`,
       p2: 'Com experiência em palestras e competições, incluindo o prêmio Top 3 no NASA Space Apps Recife e o 1º lugar no Early Stage SESC, desenvolvi uma forte habilidade em transformar conceitos em projetos funcionais, tanto de forma independente quanto em equipe.',
       p3: 'Estou sempre em busca de novos desafios para expandir meu conhecimento e aplicar minhas habilidades em projetos inovadores.',
     },
