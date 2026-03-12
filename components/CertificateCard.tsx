@@ -10,12 +10,15 @@ interface CertificateCardProps {
 
 const CertificateCard: React.FC<CertificateCardProps> = ({ certification }) => {
   const { language, t } = useTranslations();
-  const Logo = certification.logo;
 
   return (
     <div className="bg-slate-800/50 p-6 rounded-lg border border-slate-700/50 flex flex-col sm:flex-row items-start gap-6 transition-all duration-300 hover:border-cyan-400/50 hover:shadow-cyan-500/10">
       <div className="flex-shrink-0 w-16 h-16 bg-white/10 rounded-md flex items-center justify-center">
-        <Logo className="w-10 h-10 text-white" />
+        <img 
+          src={certification.logo} 
+          alt={certification.issuer}
+          className="w-10 h-10 object-contain"
+        />
       </div>
       <div className="flex-grow">
         <h3 className="text-lg font-bold text-white">{certification.title[language]}</h3>
