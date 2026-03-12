@@ -57,8 +57,8 @@ export const portfolioData = {
                 en: 'R.U.M.O'
             },
             description: {
-                pt: 'Projeto que coleta e analisa dados de uma determinada região para identificar problemas e prever quando eles podem acontecer. O sistema reúne estatísticas passadas e dados atuais para encontrar padrões, como períodos em que ocorreram epidemias de gripe, aumento de assaltos ou riscos de deslizamento de solo. A partir dessa análise, ele tenta entender quais fatores estavam presentes nesses momentos e usa estatística e probabilidade para estimar quando situações semelhantes podem ocorrer novamente, ajudando na prevenção e na tomada de decisões.',
-                en: 'A project that collects and analyzes data from a specific region to identify problems and predict when they can occur. The system gathers past statistics and current data to find patterns, such as periods when flu epidemics occurred, increased assaults, or landslide risks. From this analysis, it tries to understand which factors were present in those moments and uses statistics and probability to estimate when similar situations can occur again, helping in prevention and decision-making.'
+                pt: 'Sistema que coleta e analisa dados de uma região para identificar padrões e prever quando problemas como epidemias ou desastres naturais podem ocorrer.',
+                en: 'A system that collects and analyzes regional data to identify patterns and predict when problems such as epidemics or natural disasters may occur.'
             },
             tech: ['TSX', 'Node.js', 'Firebase', 'React']
         },
