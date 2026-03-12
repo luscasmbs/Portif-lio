@@ -3,9 +3,10 @@ import type { Project, Certification } from '../types';
 import { BrainIcon } from '../components/icons/BrainIcon';
 import { CodeIcon } from '../components/icons/CodeIcon';
 import { HeartbeatIcon } from '../components/icons/HeartbeatIcon';
-import { NasaLogo } from '../components/icons/NasaLogo';
-import { CiscoLogo } from '../components/icons/CiscoLogo';
-import { MemakerLogo } from '../components/icons/MemakerLogo';
+
+import nasaLogo from '../assets/Nasa.png';
+import ciscoLogo from '../assets/Cisco.png';
+import memakerLogo from '../assets/Memaker.png';
 
 export const portfolioData = {
     projects: [
@@ -91,7 +92,7 @@ export const portfolioData = {
     certifications: [
         {
             id: 1,
-            logo: NasaLogo,
+            logo: nasaLogo,
             title: { pt: 'Galactic Problem Solver', en: 'Galactic Problem Solver' },
             issuer: 'NASA International Space Apps Challenge',
             date: { pt: 'Verificação emitida em out de 2025', en: 'Verification issued in Oct 2025' },
@@ -100,7 +101,7 @@ export const portfolioData = {
         },
         {
             id: 2,
-            logo: CiscoLogo,
+            logo: ciscoLogo,
             title: { pt: 'Gerenciamento de ameaças cibernéticas', en: 'Cyber Threat Management' },
             issuer: 'Cisco Networking Academy',
             date: { pt: 'Verificação emitida em set de 2025', en: 'Verification issued in Sep 2025' },
@@ -109,7 +110,7 @@ export const portfolioData = {
         },
         {
             id: 3,
-            logo: CiscoLogo,
+            logo: ciscoLogo,
             title: { pt: 'CCNA: Redes', en: 'CCNA: Networking' },
             issuer: 'Cisco Networking Academy',
             date: { pt: 'Emitido em jun de 2025 · Expira em jun de 2028', en: 'Issued Jun 2025 · Expires Jun 2028' },
@@ -118,7 +119,7 @@ export const portfolioData = {
         },
         {
             id: 4,
-            logo: CiscoLogo,
+            logo: ciscoLogo,
             title: { pt: 'Defesa de rede', en: 'Network Defense' },
             issuer: 'Cisco Networking Academy',
             date: { pt: 'Verificação emitida em mar de 2025', en: 'Verification issued in Mar 2025' },
@@ -127,7 +128,7 @@ export const portfolioData = {
         },
         {
             id: 5,
-            logo: NasaLogo,
+            logo: nasaLogo,
             title: { pt: 'Galactic Problem Solver', en: 'Galactic Problem Solver' },
             issuer: 'NASA International Space Apps Challenge',
             date: { pt: 'Verificação emitida em out de 2024', en: 'Verification issued in Oct 2024' },
@@ -136,7 +137,7 @@ export const portfolioData = {
         },
         {
             id: 6,
-            logo: MemakerLogo,
+            logo: memakerLogo,
             title: { pt: 'Projeto Technomaker', en: 'Technomaker Project' },
             issuer: 'INSTITUTO MEMAKER',
             date: { pt: 'Verificação emitida em out de 2024', en: 'Verification issued in Oct 2024' },
@@ -145,7 +146,7 @@ export const portfolioData = {
         },
         {
             id: 7,
-            logo: CiscoLogo,
+            logo: ciscoLogo,
             title: { pt: 'Fundamentos do Hardware do Computador', en: 'Computer Hardware Fundamentals' },
             issuer: 'Cisco Networking Academy',
             date: { pt: 'Verificação emitida em ago de 2024', en: 'Verification issued in Aug 2024' },
@@ -153,7 +154,7 @@ export const portfolioData = {
             credentialUrl: 'https://drive.google.com/file/d/18NqmsW2TK_7v7K5mwMEwqGLHPOKl1xav/view?usp=sharing'
         },        {
             id: 8,
-            logo: CiscoLogo,
+            logo: ciscoLogo,
             title: { pt: 'Cybersegurança', en: 'Cybersecurity' },
             issuer: 'Cisco Networking Academy',
             date: { pt: 'Verificação emitida em mar de 2026', en: 'Verification issued in Mar 2026' },
