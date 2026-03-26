@@ -159,6 +159,6 @@ export const portfolioData = {
             issuer: 'Cisco Networking Academy',
             date: { pt: 'Verificação emitida em mar de 2026', en: 'Verification issued in Mar 2026' },
             skills: { pt: ['Cybersegurança'], en: ['Cybersecurity'] },
-            credentialUrl: '#',
+            credentialUrl: 'https://drive.google.com/file/d/1sQnzbm4ZW79U4EFS_9FUJ1QIfVbJPUDi/view?usp=sharing',
         },    ] as Certification[]
 };
